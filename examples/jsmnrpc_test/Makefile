@@ -1,4 +1,6 @@
 # Simple makefile for simple example
 PROGRAM=jsmnrpc_test
-EXTRA_COMPONENTS = extras/jsmnrpc
+
+# Although this test program does not depend directly on Jsmn, Jsmnrpc does
+EXTRA_COMPONENTS = extras/jsmn extras/jsmnrpc
 include ../../common.mk

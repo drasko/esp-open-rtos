@@ -11,3 +11,6 @@
 	path = bootloader/rboot
 	url = https://github.com/raburton/rboot.git
 
+[submodule "extras/erpc/erpc"]
+	path = extras/erpc/erpc
+	url = https://github.com/projectiota/erpc
